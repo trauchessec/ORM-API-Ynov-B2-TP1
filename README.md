@@ -15,7 +15,10 @@
 * La méthode PUT est le plus souvent utilisé pour les capacités de mise à jour, vers une URI de ressource. Alors que la méthode PATCH soumet une modification partielle à une ressource, par exemple si on doit uniquement mettre à jour un champ pour la ressource..
 
 5. Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
-*
+* Il y a 3 types de relation qui permet de lier des entités entre elles : OneToOne, ManyToOne et ManyToMany.
+  * OneToOne correspond à une relation unique entre deux objets (1.1)
+  * ManyToOne correspond à une relation qui permet à une entité d’avoir une relation avec plusieurs entités (n.1)
+  * ManyToMany correspond à une relation qui permet à plein d'objets d'être en relation avec plein d'autres objets (n.n)
 
 6. Qu'est-ce qu'un `Trait` en PHP et à quoi peut-il servir ?
 *
