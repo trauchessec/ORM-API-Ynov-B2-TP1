@@ -17,5 +17,5 @@
 5. Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
 *
 
-6. Qu'est-ce qu'un Trait en PHP et à quoi peut-il servir ?
+6. Qu'est-ce qu'un `Trait` en PHP et à quoi peut-il servir ?
 *
