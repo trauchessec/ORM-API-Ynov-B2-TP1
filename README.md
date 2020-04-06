@@ -21,4 +21,4 @@
   * ManyToMany correspond à une relation qui permet à plusieurs d'objets d'être en relation avec plusieurs autres objets (n.n)
 
 6. Qu'est-ce qu'un `Trait` en PHP et à quoi peut-il servir ?
-*
+* Un `Trait` est un peu comme une forme d’héritage, il nous permet de mutualiser des variables et des fonctions pour qu’elles soient réutilisables dans n’importe qu’elle classe.
