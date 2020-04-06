@@ -16,9 +16,9 @@
 
 5. Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
 * Il y a 3 types de relation qui permet de lier des entités entre elles : OneToOne, ManyToOne et ManyToMany.
-  * OneToOne correspond à une relation unique entre deux objets (1.1)
-  * OneToMany correspond à une relation qui permet à une entité d’avoir une relation avec plusieurs entités (1.n)
-  * ManyToMany correspond à une relation qui permet à plusieurs d'objets d'être en relation avec plusieurs autres objets (n.n)
+  * OneToOne (1.1) correspond à une relation unique entre deux objets
+  * OneToMany (1.n) correspond à une relation qui permet à une entité d’avoir une relation avec plusieurs entités
+  * ManyToMany (n.n) correspond à une relation qui permet à plusieurs d'objets d'être en relation avec plusieurs autres objets
 
 6. Qu'est-ce qu'un `Trait` en PHP et à quoi peut-il servir ?
 * Un `Trait` est un peu comme une forme d’héritage, il nous permet de mutualiser des variables et des fonctions pour qu’elles soient réutilisables dans n’importe qu’elle classe.
