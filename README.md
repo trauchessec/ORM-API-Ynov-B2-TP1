@@ -3,7 +3,7 @@
 ## Questions :
 
 1. Quel est l'intérêt de créer une API plutôt qu'une application classique ?
-*
+* L’avantage de crée une API plutôt qu’une application classique est qu’elle peut évoluer facilement, elle facilite le développement des applications. Elle permet à des développeurs externes de s'intégrer proprement et rapidement.
 
 2. Résumez les étapes du mécanisme de sérialisation implémenté dans Symfony
 *
