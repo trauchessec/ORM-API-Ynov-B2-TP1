@@ -6,13 +6,13 @@
 * L’avantage de crée une API plutôt qu’une application classique est qu’elle peut évoluer facilement, elle facilite le développement des applications. Elle permet à des développeurs externes de s'intégrer proprement et rapidement.
 
 2. Résumez les étapes du mécanisme de sérialisation implémenté dans Symfony
-*
+* Tout d'abort il y a la normalisation (créer un objet en tableau) 
 
 3. Qu'est-ce qu'un groupe de sérialisation ? A quoi sert-il ?
 * La sérialisation permet de transformer un objet en un format spécifique (json) pour ensuite passer du format spécifique vers l’objet d’origine. Ce qui permet ainsi de pouvoir transporter les données sur plusieurs plateformes selon le format requis.
 
 4. Quelle est la différence entre la méthode PUT et la méthode PATCH ?
-* La méthode PUT est le plus souvent utilisé pour les capacités de mise à jour, vers une URI de ressource. Alors que la méthode PATCH soumet une modification partielle à une ressource, par exemple si on doit uniquement mettre à jour un champ pour la ressource..
+* La méthode PUT est le plus souvent utilisé pour les capacités de mise à jour, vers une URI de ressource. Alors que la méthode PATCH soumet une modification partielle à une ressource, par exemple si on doit uniquement mettre à jour un champ pour la ressource.
 
 5. Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
 * Il y a 3 types de relation qui permet de lier des entités entre elles : OneToOne, OneToMany et ManyToMany.
