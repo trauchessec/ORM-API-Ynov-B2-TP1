@@ -8,7 +8,7 @@
 2. Résumez les étapes du mécanisme de sérialisation implémenté dans Symfony
 *
 
-3. Qu'est-ce qu'un groupe de sérialisation ? A quoi sert-il ?*
+3. Qu'est-ce qu'un groupe de sérialisation ? A quoi sert-il ?
 *
 
 4. Quelle est la différence entre la méthode PUT et la méthode PATCH ?
@@ -17,8 +17,8 @@
 5. Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
 * Il y a 3 types de relation qui permet de lier des entités entre elles : OneToOne, ManyToOne et ManyToMany.
   * OneToOne correspond à une relation unique entre deux objets (1.1)
-  * ManyToOne correspond à une relation qui permet à une entité d’avoir une relation avec plusieurs entités (n.1)
-  * ManyToMany correspond à une relation qui permet à plein d'objets d'être en relation avec plein d'autres objets (n.n)
+  * OneToMany correspond à une relation qui permet à une entité d’avoir une relation avec plusieurs entités (1.n)
+  * ManyToMany correspond à une relation qui permet à plusieurs d'objets d'être en relation avec plusieurs autres objets (n.n)
 
 6. Qu'est-ce qu'un `Trait` en PHP et à quoi peut-il servir ?
 *
